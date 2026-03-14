@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THRIFTED: Home</title>
+    <link rel="stylesheet" href="css/homepage-layout.css">
+	<link rel="stylesheet" href="css/general-styling.css">
+</head>
+<body>
+    <header>
+        <div class="upper-logo">
+            <a href="homepage.html"><img src="img/thrifted-logo.jpg" alt="Website Logo"></a>
+        </div>
+		
+        <div class="upper-header">
+            <div class="searchbar"><input type="text" placeholder="Search..."></div>
+            <div class="button-icon">
+                <a href="login.html"><img src="img/account-icon.jpg" alt="Account Icon"></a>
+                <a href="meettheteam.html"><img src="img/team-icon.jpg" alt="Team Icon"></a>
+            </div>
+            <div class="aboutus"><a href="aboutus.html"><strong>ABOUT US</strong></a></div>
+        </div>
+		
+        <nav class="navigation-bar">
+            <ul class="navigation-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Categories</a>
+                    <div class="categories-dropdown">
+                        <a href="womenclothing.html">Women's Clothing</a>
+                        <a href="menclothing.html">Men's Clothing</a>
+                        <a href="kidsclothing.html">Kid's Clothing</a>
+                    </div>
+                </li>
+                <li><a href="shoppingcart.html">Shopping Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="slideshow">
+            <button class="arrow left" aria-label="Previous Slide">&#10094;</button>
+            <div class="slideshow-images" id="slides">
+                <a href="menclothing.html" class="active"><img src="img/men-banner.jpg" alt="Men Banner"></a>
+				<a href="kidsclothing.html"><img src="img/kids-banner.jpg" alt="Kids Banner"></a>
+                <a href="womenclothing.html"><img src="img/women-banner.jpg" alt="Women Banner"></a>
+            </div>
+            <button class="arrow right" aria-label="Next Slide">&#10095;</button>
+        </section>
+
+        <div class="fashion-categories">
+            <div class="category-heading">
+                <h2>FASHION CATEGORIES</h2>
+            </div>
+            <div class="category-grid">
+                <a href="menclothing.html" class="category-card">
+                    <img src="img/men-icon.jpg" alt="Men's Clothing">
+                    <div class="category-label">MEN'S CLOTHING</div>
+                </a>
+                <a href="kidsclothing.html" class="category-card">
+                    <img src="img/kids-icon.jpg" alt="Kid's Clothing">
+                    <div class="category-label">KID'S CLOTHING</div>
+                </a>
+                <a href="womenclothing.html" class="category-card">
+                    <img src="img/women-icon.jpg" alt="Women's Clothing">
+                    <div class="category-label">WOMEN'S CLOTHING</div>
+                </a>
+            </div>
+        </div>
+
+        <section class="promo-banner">
+            <img src="img/promo-banner.jpg" alt="Promo Banner">
+        </section>
+
+        <div class="products">
+			<div class="products-heading">
+                <h2>FEATURED PRODUCTS</h2>
+            </div>
+			
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/menproduct1.jpg" alt="Ribbed Polo Shirt">
+                    <h3>PHP 350</h3>
+                    <p class="pname">Ribbed Polo Shirt</p>
+                    <p class="pdesc">Sleek black ribbed knit polo, slim-fit and versatile</p>
+                    <button>Add to Cart</button>
+                </div>
+				
+                <div class="product-card">
+                    <img src="img/womenproduct1.jpg" alt="Smocked Crop Set">
+                    <h3>PHP 420</h3>
+                    <p class="pname">Smocked Crop Set</p>
+                    <p class="pdesc">Dusty pink smocked crop top with wide-leg trousers</p>
+                    <button>Add to Cart</button>
+                </div>
+				
+                <div class="product-card">
+                    <img src="img/kidsproduct1.jpg" alt="Kids Collection Set">
+                    <h3>PHP 280</h3>
+                    <p class="pname">Kids Collection Set</p>
+                    <p class="pdesc">Cute and comfy thrift finds for little ones</p>
+                    <button>Add to Cart</button>
+                </div>
+				
+                <div class="product-card">
+                    <img src="img/kidsproduct4.jpg" alt="Denim Pinafore & Blouse">
+                    <h3>PHP 300</h3>
+                    <p class="pname">Denim Pinafore & Blouse</p>
+                    <p class="pdesc">Classic denim pinafore dress with a white eyelet ruffle collar blouse underneath</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <button class="load-more">LOAD MORE</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3>THRIFTED</h3>
+                <p>THRIFTED is an e-commerce platform that provides a reliable marketplace for users to easily buy and sell high-quality pre-loved fashion. We empower our community to embrace a sustainable lifestyle by extending the lifecycle of every garment through a professional and seamless shopping experience.</p>
+            </div>
+			
+            <div>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="womenclothing.html">Women</a></li>
+					<li><a href="menclothing.html">Men</a></li>
+                    <li><a href="kidsclothing.html">Kids</a></li>
+                </ul>
+            </div>
+			
+            <div>
+                <h4>Follow Us</h4>
+                <div class="socialmedia-platforms">
+                    <img src="img/facebook-icon.jpg" alt="Facebook">
+                    <img src="img/instagram-icon.jpg" alt="Instagram">
+                    <img src="img/twitter-icon.jpg" alt="Twitter">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const slides = document.querySelectorAll('.slideshow-images a');
+        const nextBtn = document.querySelector('.arrow.right');
+        const prevBtn = document.querySelector('.arrow.left');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slides[currentIndex].classList.remove('active');
+            currentIndex = (index + slides.length) % slides.length;
+            slides[currentIndex].classList.add('active');
+        }
+
+        nextBtn.addEventListener('click', () => showSlide(currentIndex + 1));
+        prevBtn.addEventListener('click', () => showSlide(currentIndex - 1));
+
+        setInterval(() => showSlide(currentIndex + 1), 5000);
+    </script>
+</body>
+</html>
