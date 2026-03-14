@@ -1,0 +1,154 @@
+* {
+    font-family: 'Didot', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9f0;
+    color: #000000;
+}
+
+h1, h2, h3, h4 {
+    color: #2d3706 !important;
+}
+
+header {
+    background-color: #8d9765;
+}
+
+.navigation-bar {
+    background-color: #4d5725;
+}
+
+.navigation-links li a {
+    color: #f8f9f0;
+}
+
+.navigation-links li a:hover {
+    color: #d8d3a4;
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+
+.categories-dropdown {
+    background-color: #4d5725;
+    border: 1px solid #4d5725;
+}
+
+.categories-dropdown a {
+    color: #f8f9f0 !important;
+}
+
+.categories-dropdown a:hover {
+    background-color: #aab18b;
+    color: #f8f9f0 !important;
+    text-decoration: none !important;
+}
+
+input, select, textarea {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #4d5725;
+}
+
+.searchbar input {
+    border: 1px solid #4d5725;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    accent-color: #4d5725;
+}
+
+section, 
+.thankyou, 
+.login, 
+.signin-container, 
+.main-page {
+    background-color: #aab18b !important; 
+    color: #000000 !important;
+}
+
+.text-rectangle {
+    background-color: #aab18b !important;
+    color: #fffdf5 !important;
+}
+
+label, p, span {
+    color: inherit;
+}
+
+.secure-checkout img,
+.empty-cart img,
+.voucher img {
+    background-color: #4d5725; 
+}
+
+.secure-checkout span,
+.empty-cart p,
+.total span {
+    color: #2d3706;
+}
+
+.aboutus a {
+    color: #2d3706;
+    border: 1px solid #4d5725;
+    text-decoration: none;
+}
+
+button, 
+input[type="submit"], 
+input[type="reset"], 
+.load-more, 
+.thankyou-button a,
+.total button {
+    background-color: #4d5725;
+    color: #f8f9f0;
+    border: 1px solid #4d5725;
+    text-decoration: none;
+    font-family: 'Didot', serif;
+    transition: 0.3s;
+}
+
+button:hover, 
+input[type="submit"]:hover, 
+input[type="reset"]:hover, 
+.load-more:hover, 
+.thankyou-button a:hover,
+.aboutus a:hover,
+.total button:hover {
+    background-color: #2d3706;
+    color: #f8f9f0 !important;
+    border-color: #2d3706;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.footer,
+.checkout-section {
+    background-color: #8d9765;
+}
+
+.footer {
+    color: #f8f9f0;
+}
+
+.footer a {
+    color: #f8f9f0;
+}
+
+.checkout-section {
+    color: #2d3706;
+}
+
+.voucher {
+    background-color: #4d5725;
+    color: #f8f9f0;
+}
+
+.voucher span,
+.select-all label {
+    color: #f8f9f0;
+}

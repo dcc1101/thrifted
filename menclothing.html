@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THRIFTED: Men's Clothing</title>
+	<link rel="stylesheet" href="css/menclothing-layout.css">
+	<link rel="stylesheet" href="css/general-styling.css">
+</head>
+<body>
+    <header>
+		<div class="upper-logo">
+			<a href="homepage.html"><img src="img/thrifted-logo.jpg" alt="Website Logo"></a>
+		</div>
+		
+		<div class="upper-header">
+			<div class="searchbar">
+				<input type="text" placeholder="Search...">
+			</div>
+			
+			<div class="button-icon">
+				<a href="login.html"><img src="img/account-icon.jpg" alt="Account Icon"></a>
+				<a href="team.html"><img src="img/team-icon.jpg" alt="Team Icon"></a>
+			</div>
+			
+			<div class="aboutus">
+				<p><a href="aboutus.html"><strong>ABOUT US</strong></a></p>
+			</div>
+		</div>
+	
+		<nav class="navigation-bar">
+			<ul class="navigation-links">
+				<li><a href="homepage.html">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropbtn">Categories</a>
+					<div class="categories-dropdown">
+						<a href="womenclothing.html">Women's Clothing</a>
+						<a href="menclothing.html">Men's Clothing</a>
+						<a href="kidsclothing.html">Kid's Clothing</a>
+					</div>
+				</li>
+                <li><a href="shoppingcart.html">Shopping Cart</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<aside class="filterPanel">
+			<h2><strong>FILTER</strong></h2>
+			<div class="filterGroup">
+				<h3>Type</h3>
+				<ul>
+					<li><input type="checkbox" id="f1a"><label for="f1a">Tops</label></li>
+					<li><input type="checkbox" id="f1b"><label for="f1b">Shirts</label></li>
+					<li><input type="checkbox" id="f1c"><label for="f1c">Polo</label></li>
+					<li><input type="checkbox" id="f1d"><label for="f1d">Sets</label></li>
+				</ul>
+			</div>
+			
+			<div class="filterGroup">
+				<h3>Size</h3>
+				<ul>
+					<li><input type="checkbox" id="f2a"><label for="f2a">S</label></li>
+					<li><input type="checkbox" id="f2b"><label for="f2b">M</label></li>
+					<li><input type="checkbox" id="f2c"><label for="f2c">L</label></li>
+					<li><input type="checkbox" id="f2d"><label for="f2d">XL</label></li>
+				</ul>
+			</div>
+		</aside>
+
+		<section class="product-section">
+			<div class="sort-bar">
+				<label for="sort-selection"><strong>SORT BY:</strong></label>
+				<select id="sort-selection">
+					<option value="Select...">Recommend</option>
+					<option value="Select...">Most Popular</option>
+					<option value="Select...">Top Rated</option>
+					<option value="Select...">Price Low to High</option>
+					<option value="Select...">Price High to Low</option>
+				</select>
+			</div>
+
+			<div class="productSel">
+				<img src="img/menproduct1.jpg" alt="Ribbed Polo Shirt">
+				<h3 class="price">PHP 350</h3>
+				<p class="product-name">Ribbed Polo Shirt</p>
+				<p class="product-description">Sleek black ribbed knit polo, slim-fit and versatile for casual or smart-casual looks</p>
+				<button type="button">Add to Cart</button>
+            </div>
+			
+            <div class="productSel">
+				<img src="img/menproduct2.jpg" alt="Classic Long Sleeve Polo">
+				<h3 class="price">PHP 320</h3>
+				<p class="product-name">Classic Long Sleeve Polo</p>
+				<p class="product-description">Minimalist black long sleeve polo with a relaxed open collar, perfect for layering</p>
+				<button type="button">Add to Cart</button>
+            </div>
+			
+            <div class="productSel">
+				<img src="img/menproduct3.jpg" alt="Linen Button-Up Shirt">
+				<h3 class="price">PHP 380</h3>
+				<p class="product-name">Linen Button-Up Shirt</p>
+				<p class="product-description">Lightweight cream linen shirt with a casual open collar, great for warm weather</p>
+				<button type="button">Add to Cart</button>
+            </div>
+			
+            <div class="productSel">
+				<img src="img/menproduct4.jpg" alt="Sage Cargo Overshirt">
+				<h3 class="price">PHP 410</h3>
+				<p class="product-name">Sage Cargo Overshirt</p>
+				<p class="product-description">Washed sage-green cargo shirt with dual chest pockets and rolled cuffs</p>
+				<button type="button">Add to Cart</button>
+            </div>
+			
+            <div class="productSel">
+				<img src="img/menproduct5.jpg" alt="Navy Formal Shirt">
+				<h3 class="price">PHP 360</h3>
+				<p class="product-name">Navy Formal Shirt</p>
+				<p class="product-description">Crisp navy blue button-down shirt, slim-fit, ideal for office or semi-formal occasions</p>
+				<button type="button">Add to Cart</button>
+            </div>
+			
+            <div class="productSel">
+				<img src="img/menproduct6.jpg" alt="Forest Green Oversized Shirt">
+				<h3 class="price">PHP 370</h3>
+				<p class="product-name">Forest Green Oversized Shirt</p>
+				<p class="product-description">Relaxed dark green linen shirt with a boxy silhouette and single chest pocket</p>
+				<button type="button">Add to Cart</button>
+            </div>
+		</section>
+	</main>
+</body>
+</html>
